@@ -10,30 +10,7 @@
 - Project Save/Load: Save annotations to a JSON project file and reload at any time.
 - Playback Controls: Play/pause, jump to segment boundaries, and loop segment playback.
 
-### Repository Structure
 
-```
-├── src/
-│   ├── main.py           # Entry point
-│   ├── timeline.py       # Timeline annotation widget
-│   ├── project.py        # Project data model & serialization
-│   ├── export_worker.py  # Export thread & progress management
-│   └── ui_resources/     # UI styles & icons
-├── requirements.txt      # Python dependencies
-├── LICENSE               # License
-└── README_EN.md          # English documentation
-```
-
-### Installation
-
-```bash
-git clone https://github.com/yourusername/video-annotation-tool.git
-cd video-annotation-tool
-python -m venv venv
-source venv/bin/activate   # Linux/macOS
-venv\Scripts\activate  # Windows
-pip install -r requirements.txt
-```
 
 ### Usage
 
@@ -53,7 +30,7 @@ python src/main.py
 - MoviePy
 
 ```text
-# requirements.txt
+# ffpeg
 PySide6
 moviepy
 ```
