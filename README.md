@@ -30,10 +30,11 @@ python src/main.py
 - MoviePy
 
 ```text
-# ffpeg
+# ffmpeg
 PySide6
 moviepy
 ```
+![using](https://github.com/user-attachments/assets/9d3e48b0-2213-47c9-b066-fd9694c0a0be)
 
 ## 中文说明
 
